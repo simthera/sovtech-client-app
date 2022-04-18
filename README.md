@@ -1,6 +1,6 @@
-# SovTech | Technical Assessment
+# SovTech | Client App Technical Assessment
 
-This SovTech Technical Assessment for frontend was done using 💙 React and TypeScript.
+This SovTech Technical client app assessment done using 💙 React and TypeScript.
 
 ## What tools did I use?
 
