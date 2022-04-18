@@ -66,7 +66,6 @@ test("render home with loader state initially", async () => {
     wrapper.containsAllMatchingElements([
       <Header title="Charactors"></Header>,
       <LoadingIndicator></LoadingIndicator>,
-      <Footer title="2021 May the Force be with you. by Akho Tshweza"></Footer>,
     ])
   ).toBe(true);
 });
