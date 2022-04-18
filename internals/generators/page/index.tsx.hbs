@@ -1,0 +1,25 @@
+/*
+*
+* {{properCase name }}
+*
+*/
+
+import React, { FC, ReactElement } from "react";
+{{#if wantHeaders}}
+import { Helmet } from 'react-helmet';
+{{/if}}
+
+const {{ properCase name }}: FC<{}> = (): ReactElement => {
+  return(
+    <div>
+      {{#if wantHeaders}}
+      <Helmet>
+        <title>{{properCase name}}</title>
+        <meta name="description" content="Description of {{properCase name}}" />
+      </Helmet>
+      {{/if}}
+    </div>
+  );
+}
+
+export default {{ properCase name }};

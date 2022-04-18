@@ -1,0 +1,15 @@
+/*
+*
+* {{properCase name }}
+*
+*/
+
+import React, { FC, ReactElement } from "react";
+{{#if wantStyledComp}}
+import { Styled{{properCase name}} } from './styledComponents';
+{{/if}}
+const {{ properCase name }}: FC<{}> = (): ReactElement => {
+  return {{#if wantStyledComp}}<Styled{{properCase name}}></Styled{{properCase name}}>{{else}}<div></div>{{/if}}
+}
+
+export default {{ properCase name }};
